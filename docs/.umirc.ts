@@ -73,8 +73,8 @@ export default defineConfig({
     `
   }],
   headScripts: [{content: `
-  if (document.location.host.indexOf('localhost') === -1 && document.location.host !== 'lightproxy.org') {
-    location.href = 'https://lightproxy.org/';
+  if (document.location.host.indexOf('localhost') === -1 && document.location.host !== 'lightproxy.ir') {
+    location.href = 'https://lightproxy.ir/';
   }
   `}, {
     content: `
